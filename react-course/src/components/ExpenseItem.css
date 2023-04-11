@@ -1,0 +1,11 @@
+.expense-item-container{
+    display: flex;
+    width:50%;
+    margin: auto; 
+    background: grey;
+    color: black;
+    justify-content: space-between;
+}
+.expense-item-container:nth-child(2n){
+    background: lightgray;
+}
