@@ -4,14 +4,16 @@ import "./Navbar.css";
 export default function Navbar(props){
     return(
         <div className="portfolio-navbar-container">
-            <div class="">logo</div>
-            <div class=" navbar-short-inro-container">
-                <div class="name">Székely Zsófia</div>
-                <div class="job">Frontend Developer</div>    
+            <div className="navbar-short-inro-container">
+                <div className="logo">logo</div>
+                <div className="name">Székely Zsófia</div>
+                <div className="job">Frontend Developer</div>    
             </div>
-            <div class='button about'>About</div>
-            <div class="button portfolio">portfolio</div>
-            <div class="button hire-me">CV -&gt; hire me :&#41;</div>
+            <div className="other-buttons">
+                <div className='button about'>About</div>
+                <div className="button portfolio">portfolio</div>
+                <div className="button hire-me">CV -&gt; hire me :&#41;</div>
+            </div>            
         </div>
     );
 }

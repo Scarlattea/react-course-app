@@ -1,6 +1,21 @@
+@import './navbar-mixin.scss';
+
 .portfolio-navbar-container{
+    @include centered-row;
     display: flex;
-    flex-direction: row;
     background-color: #333;
     color: #f4f4f4;
+    justify-content: space-between;
+    padding: 0 20px; 
+    .navbar-short-inro-container{
+        display: grid;
+        grid-template-columns: 50px 200px;
+        .logo{
+            grid-area: 1 / 1/ 3 / 2; 
+        }
+    }
+    .other-buttons{
+        @include centered-row; 
+        gap: 30px;
+    }
 }
