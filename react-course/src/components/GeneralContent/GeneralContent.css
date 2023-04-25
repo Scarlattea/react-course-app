@@ -52,6 +52,9 @@
   border-top: unset;
 }
 .portfolio-general-content .about-container .name-container {
+  /*background: linear-gradient(0deg, #93bfcc, #add3de, #FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
   font-size: 7rem;
 }
 .portfolio-general-content .about-container .job-container {
