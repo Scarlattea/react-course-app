@@ -23,4 +23,11 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+.portfolio-navbar-container .other-buttons a.button {
+  color: white;
+  transition: all 0.3s ease;
+}
+.portfolio-navbar-container .other-buttons a.button:hover {
+  color: lightpink;
 }/*# sourceMappingURL=Navbar.css.map */

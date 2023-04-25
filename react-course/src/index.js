@@ -12,8 +12,8 @@ import HireMe from './components/HireMe/HireMe';
 const router = createBrowserRouter([
   { path: '/', element: <App/>, children: [
     {path: '/', element: <GeneralContent/>},
-    {path: 'portfolio_picker', element: <PortfoliMenuPage/>},
-    {path: 'hire_me', element:  <HireMe/>}
+    {path: '/portfolio_picker', element: <PortfoliMenuPage/>},
+    {path: '/hire_me', element:  <HireMe/>}
   ]},
   {path: '/oldalneve', element: <PageOne/>}
 ]);

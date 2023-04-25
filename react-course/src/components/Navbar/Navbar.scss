@@ -18,5 +18,12 @@
     .other-buttons{
         @include centered-row; 
         gap: 30px;
+        a.button{
+            color: white;
+            transition:all 0.3s ease;
+            &:hover{
+                color: lightpink;
+            }
+        }
     }
 }

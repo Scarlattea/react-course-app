@@ -1,5 +1,6 @@
 
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar(props){
     return(
@@ -10,9 +11,9 @@ export default function Navbar(props){
                 <div className="job">Frontend Developer</div>    
             </div>
             <div className="other-buttons">
-                <div className='button about'>About</div>
-                <div className="button portfolio">portfolio</div>
-                <div className="button hire-me">CV -&gt; hire me :&#41;</div>
+                <Link to="/" className='button about'>About</Link>
+                <Link to="/portfolio_picker" className="button portfolio">Portfolio</Link>
+                <Link to="/hire_me" className='button hire-me'>CV -&gt; hire me :&#41;</Link>
             </div>            
         </div>
     );
