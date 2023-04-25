@@ -2,12 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import PageOne from './PageTwo/PageOne';
 import reportWebVitals from './reportWebVitals';
+import {RouterProvider ,  createBrowserRouter} from 'react-router-dom';
+import GeneralContent from './components/GeneralContent/GeneralContent';
+import PortfoliMenuPage from './components/PortfolioMenuPage/PortfolioMenuPage';
+import HireMe from './components/HireMe/HireMe';
+
+const router = createBrowserRouter([
+  { path: '/', element: <App/>, children: [
+    {path: '/', element: <GeneralContent/>},
+    {path: 'portfolio_picker', element: <PortfoliMenuPage/>},
+    {path: 'hire_me', element:  <HireMe/>}
+  ]},
+  {path: '/oldalneve', element: <PageOne/>}
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

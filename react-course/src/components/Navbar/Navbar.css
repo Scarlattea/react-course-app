@@ -8,6 +8,7 @@
   color: #f4f4f4;
   justify-content: space-between;
   padding: 0 20px;
+  border-bottom: 2px solid #3a2247;
 }
 .portfolio-navbar-container .navbar-short-inro-container {
   display: grid;
