@@ -1,29 +1,50 @@
 .portfolio-general-content{
     background: #222222; 
-    height: 100vh;
+    height: calc(100vh - 50px);
     width: 100%; 
+    color: white;
     .about-container{
         width: 70%;
         margin: auto; 
-        height: 100vh;
+        height: calc(100vh - 200px);
         position: relative;
-        .corner-top-left, .corner-bottom-right{
-            border: 10px solid blue;
+        top: 50px; 
+        padding: 50px;
+        box-sizing: border-box;
+        .corner-wrapper.top, .corner-wrapper.bottom{
             height: 200px;
             width: 200px;
             position: absolute;
-            top: 50px; 
+            top: 0px; 
+            left: 0px;
+            border-radius:25px;
+            overflow: hidden;
+            box-sizing: border-box;;
+        }
+        .corner-wrapper.top{
+            border-top-left-radius: 3px;
+        }
+        .corner-wrapper.bottom{
+            bottom: 0px;
+            right: 0px;
+            left: unset; 
+            top: unset; 
+            border-bottom-right-radius: 3px;
+        }
+        .corner-top-left, .corner-bottom-right{
+            box-sizing: border-box;
+            height:100%;
+            width: 100%;
+            border: 10px solid;
+            border-image: linear-gradient(135deg, #420773,#5d3670, #844bb3,#7ab4eb, #844bb3,#5d3670, #420773) 1;
         }
         .corner-top-left{
             border-right:unset;
-            border-bottom: unset;
+            border-bottom: unset;           
         }
         .corner-bottom-right{
-            bottom: 100px;
-            right: 0px;
-            top: unset; 
             border-left: unset;
-            border-top: unset; 
+            border-top: unset;
         }
     }
 }

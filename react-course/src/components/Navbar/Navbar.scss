@@ -7,7 +7,9 @@
     color: #f4f4f4;
     justify-content: space-between;
     padding: 0 20px; 
-    border-bottom: 2px solid #3a2247;
+    border-bottom: 3px solid #3a2247;
+    height: 50px; 
+    box-sizing: border-box;
     .navbar-short-inro-container{
         display: grid;
         grid-template-columns: 50px 200px;
