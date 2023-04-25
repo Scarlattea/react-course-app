@@ -12,6 +12,8 @@
   top: 50px;
   padding: 50px;
   box-sizing: border-box;
+  padding-top: 15px;
+  font-family: "Kalam", cursive;
 }
 .portfolio-general-content .about-container .corner-wrapper.top, .portfolio-general-content .about-container .corner-wrapper.bottom {
   height: 200px;
@@ -48,4 +50,15 @@
 .portfolio-general-content .about-container .corner-bottom-right {
   border-left: unset;
   border-top: unset;
+}
+.portfolio-general-content .about-container .name-container {
+  font-size: 7rem;
+}
+.portfolio-general-content .about-container .job-container {
+  font-size: 4rem;
+  padding-left: 10%;
+  padding-bottom: 5vh;
+}
+.portfolio-general-content .about-container .short-introduction {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=GeneralContent.css.map */

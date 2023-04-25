@@ -11,6 +11,8 @@
         top: 50px; 
         padding: 50px;
         box-sizing: border-box;
+        padding-top: 15px;
+        font-family: 'Kalam', cursive;;
         .corner-wrapper.top, .corner-wrapper.bottom{
             height: 200px;
             width: 200px;
@@ -45,6 +47,17 @@
         .corner-bottom-right{
             border-left: unset;
             border-top: unset;
+        }
+        .name-container{
+            font-size: 7rem;
+        }
+        .job-container{
+            font-size: 4rem;
+            padding-left: 10%;
+            padding-bottom: 5vh;
+        }
+        .short-introduction{
+            font-size: 1.2rem; 
         }
     }
 }
