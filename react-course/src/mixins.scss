@@ -1,0 +1,5 @@
+@mixin blue-gradient-letters{
+    background: linear-gradient(0deg,#93bfcc, #add3de, #FFF);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}

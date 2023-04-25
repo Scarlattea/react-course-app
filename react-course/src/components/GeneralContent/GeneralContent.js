@@ -1,4 +1,3 @@
-
 import "./GeneralContent.css";
 
 export default function GeneralContent(props){
