@@ -1,3 +1,23 @@
+.about-me-page .portfolio-navbar-container {
+  justify-content: center;
+}
+.about-me-page .portfolio-navbar-container .navbar-short-inro-container {
+  display: none;
+}
+.about-me-page .decoration.bubble {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  z-index: 1;
+  background: linear-gradient(217deg, rgba(230, 165, 223, 0.6), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(255, 255, 255, 0.9), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(122, 180, 235, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+@keyframes bubble-move {
+  to {
+    top: 0px;
+  }
+}
+@keyframes bubble-wiggle {}
 .portfolio-general-content {
   background: #222222;
   height: calc(100vh - 50px);
@@ -14,6 +34,10 @@
   box-sizing: border-box;
   padding-top: 15px;
   font-family: "Kalam", cursive;
+  /*box-shadow: 0 0 5px 10px rgba(122, 180, 235, 0.6);*/
+  background: rgba(122, 180, 235, 0.4);
+  border-radius: 3px;
+  z-index: 3;
 }
 .portfolio-general-content .about-container .corner-wrapper.top, .portfolio-general-content .about-container .corner-wrapper.bottom {
   height: 200px;
@@ -52,9 +76,6 @@
   border-top: unset;
 }
 .portfolio-general-content .about-container .name-container {
-  /*background: linear-gradient(0deg, #93bfcc, #add3de, #FFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
   font-size: 7rem;
 }
 .portfolio-general-content .about-container .job-container {
