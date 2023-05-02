@@ -22,7 +22,7 @@
   border-radius: 50%;
   z-index: 1;
   background: linear-gradient(217deg, rgba(230, 165, 223, 0.6), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(255, 255, 255, 0.9), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(122, 180, 235, 0.8), rgba(0, 0, 255, 0) 70.71%);
-  animation: linear bubble-wiggle infinite alternate;
+  animation: ease-in-out bubble-wiggle infinite alternate;
 }
 .about-me-page .decoration.bubble.no-return {
   animation-iteration-count: 1;
@@ -30,603 +30,603 @@
 }
 
 .bubble-1::after {
-  animation-duration: 34s !important;
+  animation-duration: 23s !important;
 }
 
 .bubble-2::after {
-  animation-duration: 38s !important;
+  animation-duration: 74s !important;
 }
 
 .bubble-3::after {
-  animation-duration: 14s !important;
+  animation-duration: 16s !important;
 }
 
 .bubble-4::after {
-  animation-duration: 27s !important;
+  animation-duration: 70s !important;
 }
 
 .bubble-5::after {
-  animation-duration: 18s !important;
+  animation-duration: 48s !important;
 }
 
 .bubble-6::after {
-  animation-duration: 21s !important;
+  animation-duration: 66s !important;
 }
 
 .bubble-7::after {
-  animation-duration: 14s !important;
+  animation-duration: 70s !important;
 }
 
 .bubble-8::after {
-  animation-duration: 13s !important;
-}
-
-.bubble-9::after {
-  animation-duration: 29s !important;
-}
-
-.bubble-10::after {
-  animation-duration: 50s !important;
-}
-
-.bubble-11::after {
-  animation-duration: 36s !important;
-}
-
-.bubble-12::after {
-  animation-duration: 34s !important;
-}
-
-.bubble-13::after {
   animation-duration: 43s !important;
 }
 
+.bubble-9::after {
+  animation-duration: 24s !important;
+}
+
+.bubble-10::after {
+  animation-duration: 61s !important;
+}
+
+.bubble-11::after {
+  animation-duration: 16s !important;
+}
+
+.bubble-12::after {
+  animation-duration: 35s !important;
+}
+
+.bubble-13::after {
+  animation-duration: 57s !important;
+}
+
 .bubble-14::after {
-  animation-duration: 52s !important;
+  animation-duration: 56s !important;
 }
 
 .bubble-15::after {
-  animation-duration: 31s !important;
+  animation-duration: 33s !important;
 }
 
 .bubble-16::after {
-  animation-duration: 51s !important;
+  animation-duration: 61s !important;
 }
 
 .bubble-17::after {
-  animation-duration: 39s !important;
+  animation-duration: 73s !important;
 }
 
 .bubble-18::after {
-  animation-duration: 48s !important;
+  animation-duration: 44s !important;
 }
 
 .bubble-19::after {
-  animation-duration: 51s !important;
+  animation-duration: 61s !important;
 }
 
 .bubble-20::after {
-  animation-duration: 49s !important;
+  animation-duration: 37s !important;
 }
 
 .bubble-21::after {
-  animation-duration: 51s !important;
+  animation-duration: 16s !important;
 }
 
 .bubble-22::after {
-  animation-duration: 14s !important;
+  animation-duration: 17s !important;
 }
 
 .bubble-23::after {
-  animation-duration: 49s !important;
-}
-
-.bubble-24::after {
-  animation-duration: 40s !important;
-}
-
-.bubble-25::after {
-  animation-duration: 47s !important;
-}
-
-.bubble-26::after {
-  animation-duration: 18s !important;
-}
-
-.bubble-27::after {
-  animation-duration: 36s !important;
-}
-
-.bubble-28::after {
-  animation-duration: 12s !important;
-}
-
-.bubble-29::after {
-  animation-duration: 50s !important;
-}
-
-.bubble-30::after {
-  animation-duration: 21s !important;
-}
-
-.bubble-31::after {
-  animation-duration: 36s !important;
-}
-
-.bubble-32::after {
-  animation-duration: 44s !important;
-}
-
-.bubble-33::after {
-  animation-duration: 12s !important;
-}
-
-.bubble-34::after {
-  animation-duration: 49s !important;
-}
-
-.bubble-35::after {
-  animation-duration: 20s !important;
-}
-
-.bubble-36::after {
-  animation-duration: 46s !important;
-}
-
-.bubble-37::after {
-  animation-duration: 51s !important;
-}
-
-.bubble-38::after {
-  animation-duration: 12s !important;
-}
-
-.bubble-39::after {
-  animation-duration: 11s !important;
-}
-
-.bubble-40::after {
-  animation-duration: 13s !important;
-}
-
-.bubble-41::after {
-  animation-duration: 41s !important;
-}
-
-.bubble-42::after {
-  animation-duration: 27s !important;
-}
-
-.bubble-43::after {
-  animation-duration: 54s !important;
-}
-
-.bubble-44::after {
-  animation-duration: 19s !important;
-}
-
-.bubble-45::after {
-  animation-duration: 23s !important;
-}
-
-.bubble-46::after {
-  animation-duration: 55s !important;
-}
-
-.bubble-47::after {
-  animation-duration: 17s !important;
-}
-
-.bubble-48::after {
-  animation-duration: 48s !important;
-}
-
-.bubble-49::after {
-  animation-duration: 17s !important;
-}
-
-.bubble-50::after {
-  animation-duration: 33s !important;
-}
-
-.bubble-51::after {
-  animation-duration: 40s !important;
-}
-
-.bubble-52::after {
-  animation-duration: 26s !important;
-}
-
-.bubble-53::after {
-  animation-duration: 40s !important;
-}
-
-.bubble-54::after {
-  animation-duration: 48s !important;
-}
-
-.bubble-55::after {
-  animation-duration: 37s !important;
-}
-
-.bubble-56::after {
-  animation-duration: 34s !important;
-}
-
-.bubble-57::after {
-  animation-duration: 28s !important;
-}
-
-.bubble-58::after {
-  animation-duration: 26s !important;
-}
-
-.bubble-59::after {
-  animation-duration: 35s !important;
-}
-
-.bubble-60::after {
-  animation-duration: 45s !important;
-}
-
-.bubble-61::after {
-  animation-duration: 49s !important;
-}
-
-.bubble-62::after {
-  animation-duration: 36s !important;
-}
-
-.bubble-63::after {
-  animation-duration: 33s !important;
-}
-
-.bubble-64::after {
-  animation-duration: 40s !important;
-}
-
-.bubble-65::after {
-  animation-duration: 51s !important;
-}
-
-.bubble-66::after {
-  animation-duration: 38s !important;
-}
-
-.bubble-67::after {
-  animation-duration: 38s !important;
-}
-
-.bubble-68::after {
-  animation-duration: 41s !important;
-}
-
-.bubble-69::after {
-  animation-duration: 29s !important;
-}
-
-.bubble-70::after {
-  animation-duration: 51s !important;
-}
-
-.bubble-71::after {
-  animation-duration: 54s !important;
-}
-
-.bubble-72::after {
-  animation-duration: 17s !important;
-}
-
-.bubble-73::after {
-  animation-duration: 36s !important;
-}
-
-.bubble-74::after {
-  animation-duration: 28s !important;
-}
-
-.bubble-75::after {
-  animation-duration: 17s !important;
-}
-
-.bubble-76::after {
-  animation-duration: 32s !important;
-}
-
-.bubble-77::after {
-  animation-duration: 23s !important;
-}
-
-.bubble-78::after {
-  animation-duration: 27s !important;
-}
-
-.bubble-79::after {
-  animation-duration: 44s !important;
-}
-
-.bubble-80::after {
-  animation-duration: 51s !important;
-}
-
-.bubble-81::after {
-  animation-duration: 32s !important;
-}
-
-.bubble-82::after {
-  animation-duration: 27s !important;
-}
-
-.bubble-83::after {
-  animation-duration: 39s !important;
-}
-
-.bubble-84::after {
-  animation-duration: 14s !important;
-}
-
-.bubble-85::after {
-  animation-duration: 38s !important;
-}
-
-.bubble-86::after {
-  animation-duration: 41s !important;
-}
-
-.bubble-87::after {
-  animation-duration: 44s !important;
-}
-
-.bubble-88::after {
-  animation-duration: 26s !important;
-}
-
-.bubble-89::after {
-  animation-duration: 36s !important;
-}
-
-.bubble-90::after {
-  animation-duration: 20s !important;
-}
-
-.bubble-91::after {
-  animation-duration: 12s !important;
-}
-
-.bubble-92::after {
-  animation-duration: 15s !important;
-}
-
-.bubble-93::after {
-  animation-duration: 22s !important;
-}
-
-.bubble-94::after {
-  animation-duration: 35s !important;
-}
-
-.bubble-95::after {
-  animation-duration: 53s !important;
-}
-
-.bubble-96::after {
-  animation-duration: 48s !important;
-}
-
-.bubble-97::after {
-  animation-duration: 53s !important;
-}
-
-.bubble-98::after {
-  animation-duration: 33s !important;
-}
-
-.bubble-99::after {
-  animation-duration: 53s !important;
-}
-
-.bubble-100::after {
-  animation-duration: 40s !important;
-}
-
-.bubble-101::after {
-  animation-duration: 14s !important;
-}
-
-.bubble-102::after {
   animation-duration: 30s !important;
 }
 
-.bubble-103::after {
-  animation-duration: 28s !important;
-}
-
-.bubble-104::after {
-  animation-duration: 35s !important;
-}
-
-.bubble-105::after {
-  animation-duration: 32s !important;
-}
-
-.bubble-106::after {
-  animation-duration: 24s !important;
-}
-
-.bubble-107::after {
-  animation-duration: 51s !important;
-}
-
-.bubble-108::after {
-  animation-duration: 47s !important;
-}
-
-.bubble-109::after {
-  animation-duration: 52s !important;
-}
-
-.bubble-110::after {
-  animation-duration: 45s !important;
-}
-
-.bubble-111::after {
-  animation-duration: 41s !important;
-}
-
-.bubble-112::after {
-  animation-duration: 48s !important;
-}
-
-.bubble-113::after {
-  animation-duration: 12s !important;
-}
-
-.bubble-114::after {
-  animation-duration: 53s !important;
-}
-
-.bubble-115::after {
-  animation-duration: 27s !important;
-}
-
-.bubble-116::after {
+.bubble-24::after {
   animation-duration: 31s !important;
 }
 
-.bubble-117::after {
-  animation-duration: 27s !important;
+.bubble-25::after {
+  animation-duration: 17s !important;
 }
 
-.bubble-118::after {
-  animation-duration: 44s !important;
+.bubble-26::after {
+  animation-duration: 72s !important;
 }
 
-.bubble-119::after {
-  animation-duration: 29s !important;
+.bubble-27::after {
+  animation-duration: 42s !important;
 }
 
-.bubble-120::after {
+.bubble-28::after {
+  animation-duration: 42s !important;
+}
+
+.bubble-29::after {
+  animation-duration: 65s !important;
+}
+
+.bubble-30::after {
   animation-duration: 20s !important;
 }
 
-.bubble-121::after {
-  animation-duration: 23s !important;
-}
-
-.bubble-122::after {
-  animation-duration: 17s !important;
-}
-
-.bubble-123::after {
-  animation-duration: 52s !important;
-}
-
-.bubble-124::after {
-  animation-duration: 14s !important;
-}
-
-.bubble-125::after {
-  animation-duration: 36s !important;
-}
-
-.bubble-126::after {
-  animation-duration: 17s !important;
-}
-
-.bubble-127::after {
-  animation-duration: 39s !important;
-}
-
-.bubble-128::after {
-  animation-duration: 40s !important;
-}
-
-.bubble-129::after {
-  animation-duration: 20s !important;
-}
-
-.bubble-130::after {
-  animation-duration: 53s !important;
-}
-
-.bubble-131::after {
-  animation-duration: 21s !important;
-}
-
-.bubble-132::after {
-  animation-duration: 12s !important;
-}
-
-.bubble-133::after {
-  animation-duration: 32s !important;
-}
-
-.bubble-134::after {
-  animation-duration: 24s !important;
-}
-
-.bubble-135::after {
-  animation-duration: 17s !important;
-}
-
-.bubble-136::after {
-  animation-duration: 37s !important;
-}
-
-.bubble-137::after {
-  animation-duration: 33s !important;
-}
-
-.bubble-138::after {
-  animation-duration: 27s !important;
-}
-
-.bubble-139::after {
-  animation-duration: 54s !important;
-}
-
-.bubble-140::after {
-  animation-duration: 52s !important;
-}
-
-.bubble-141::after {
-  animation-duration: 28s !important;
-}
-
-.bubble-142::after {
-  animation-duration: 35s !important;
-}
-
-.bubble-143::after {
-  animation-duration: 47s !important;
-}
-
-.bubble-144::after {
-  animation-duration: 44s !important;
-}
-
-.bubble-145::after {
-  animation-duration: 13s !important;
-}
-
-.bubble-146::after {
+.bubble-31::after {
   animation-duration: 45s !important;
 }
 
-.bubble-147::after {
-  animation-duration: 44s !important;
+.bubble-32::after {
+  animation-duration: 66s !important;
 }
 
-.bubble-148::after {
-  animation-duration: 14s !important;
+.bubble-33::after {
+  animation-duration: 19s !important;
 }
 
-.bubble-149::after {
+.bubble-34::after {
+  animation-duration: 42s !important;
+}
+
+.bubble-35::after {
+  animation-duration: 51s !important;
+}
+
+.bubble-36::after {
+  animation-duration: 49s !important;
+}
+
+.bubble-37::after {
+  animation-duration: 26s !important;
+}
+
+.bubble-38::after {
+  animation-duration: 34s !important;
+}
+
+.bubble-39::after {
+  animation-duration: 59s !important;
+}
+
+.bubble-40::after {
+  animation-duration: 64s !important;
+}
+
+.bubble-41::after {
+  animation-duration: 51s !important;
+}
+
+.bubble-42::after {
+  animation-duration: 42s !important;
+}
+
+.bubble-43::after {
+  animation-duration: 73s !important;
+}
+
+.bubble-44::after {
+  animation-duration: 38s !important;
+}
+
+.bubble-45::after {
+  animation-duration: 47s !important;
+}
+
+.bubble-46::after {
+  animation-duration: 57s !important;
+}
+
+.bubble-47::after {
+  animation-duration: 25s !important;
+}
+
+.bubble-48::after {
+  animation-duration: 62s !important;
+}
+
+.bubble-49::after {
+  animation-duration: 43s !important;
+}
+
+.bubble-50::after {
+  animation-duration: 46s !important;
+}
+
+.bubble-51::after {
+  animation-duration: 49s !important;
+}
+
+.bubble-52::after {
+  animation-duration: 32s !important;
+}
+
+.bubble-53::after {
   animation-duration: 23s !important;
 }
 
-.bubble-150::after {
+.bubble-54::after {
+  animation-duration: 71s !important;
+}
+
+.bubble-55::after {
+  animation-duration: 20s !important;
+}
+
+.bubble-56::after {
+  animation-duration: 16s !important;
+}
+
+.bubble-57::after {
+  animation-duration: 45s !important;
+}
+
+.bubble-58::after {
+  animation-duration: 30s !important;
+}
+
+.bubble-59::after {
+  animation-duration: 22s !important;
+}
+
+.bubble-60::after {
+  animation-duration: 53s !important;
+}
+
+.bubble-61::after {
+  animation-duration: 69s !important;
+}
+
+.bubble-62::after {
+  animation-duration: 27s !important;
+}
+
+.bubble-63::after {
+  animation-duration: 44s !important;
+}
+
+.bubble-64::after {
+  animation-duration: 49s !important;
+}
+
+.bubble-65::after {
+  animation-duration: 74s !important;
+}
+
+.bubble-66::after {
+  animation-duration: 24s !important;
+}
+
+.bubble-67::after {
+  animation-duration: 17s !important;
+}
+
+.bubble-68::after {
+  animation-duration: 62s !important;
+}
+
+.bubble-69::after {
+  animation-duration: 66s !important;
+}
+
+.bubble-70::after {
+  animation-duration: 34s !important;
+}
+
+.bubble-71::after {
+  animation-duration: 43s !important;
+}
+
+.bubble-72::after {
+  animation-duration: 48s !important;
+}
+
+.bubble-73::after {
+  animation-duration: 16s !important;
+}
+
+.bubble-74::after {
+  animation-duration: 64s !important;
+}
+
+.bubble-75::after {
+  animation-duration: 54s !important;
+}
+
+.bubble-76::after {
+  animation-duration: 51s !important;
+}
+
+.bubble-77::after {
+  animation-duration: 27s !important;
+}
+
+.bubble-78::after {
+  animation-duration: 60s !important;
+}
+
+.bubble-79::after {
+  animation-duration: 21s !important;
+}
+
+.bubble-80::after {
+  animation-duration: 72s !important;
+}
+
+.bubble-81::after {
+  animation-duration: 50s !important;
+}
+
+.bubble-82::after {
+  animation-duration: 38s !important;
+}
+
+.bubble-83::after {
+  animation-duration: 46s !important;
+}
+
+.bubble-84::after {
+  animation-duration: 49s !important;
+}
+
+.bubble-85::after {
+  animation-duration: 43s !important;
+}
+
+.bubble-86::after {
+  animation-duration: 17s !important;
+}
+
+.bubble-87::after {
+  animation-duration: 45s !important;
+}
+
+.bubble-88::after {
+  animation-duration: 27s !important;
+}
+
+.bubble-89::after {
+  animation-duration: 61s !important;
+}
+
+.bubble-90::after {
+  animation-duration: 60s !important;
+}
+
+.bubble-91::after {
+  animation-duration: 73s !important;
+}
+
+.bubble-92::after {
+  animation-duration: 64s !important;
+}
+
+.bubble-93::after {
+  animation-duration: 63s !important;
+}
+
+.bubble-94::after {
+  animation-duration: 55s !important;
+}
+
+.bubble-95::after {
+  animation-duration: 19s !important;
+}
+
+.bubble-96::after {
+  animation-duration: 73s !important;
+}
+
+.bubble-97::after {
+  animation-duration: 46s !important;
+}
+
+.bubble-98::after {
+  animation-duration: 37s !important;
+}
+
+.bubble-99::after {
+  animation-duration: 63s !important;
+}
+
+.bubble-100::after {
+  animation-duration: 59s !important;
+}
+
+.bubble-101::after {
+  animation-duration: 50s !important;
+}
+
+.bubble-102::after {
+  animation-duration: 63s !important;
+}
+
+.bubble-103::after {
+  animation-duration: 54s !important;
+}
+
+.bubble-104::after {
+  animation-duration: 68s !important;
+}
+
+.bubble-105::after {
+  animation-duration: 57s !important;
+}
+
+.bubble-106::after {
+  animation-duration: 36s !important;
+}
+
+.bubble-107::after {
+  animation-duration: 31s !important;
+}
+
+.bubble-108::after {
+  animation-duration: 71s !important;
+}
+
+.bubble-109::after {
+  animation-duration: 67s !important;
+}
+
+.bubble-110::after {
+  animation-duration: 25s !important;
+}
+
+.bubble-111::after {
+  animation-duration: 49s !important;
+}
+
+.bubble-112::after {
+  animation-duration: 37s !important;
+}
+
+.bubble-113::after {
+  animation-duration: 28s !important;
+}
+
+.bubble-114::after {
+  animation-duration: 48s !important;
+}
+
+.bubble-115::after {
+  animation-duration: 21s !important;
+}
+
+.bubble-116::after {
+  animation-duration: 26s !important;
+}
+
+.bubble-117::after {
+  animation-duration: 60s !important;
+}
+
+.bubble-118::after {
+  animation-duration: 39s !important;
+}
+
+.bubble-119::after {
+  animation-duration: 32s !important;
+}
+
+.bubble-120::after {
+  animation-duration: 61s !important;
+}
+
+.bubble-121::after {
+  animation-duration: 41s !important;
+}
+
+.bubble-122::after {
+  animation-duration: 64s !important;
+}
+
+.bubble-123::after {
+  animation-duration: 30s !important;
+}
+
+.bubble-124::after {
   animation-duration: 29s !important;
+}
+
+.bubble-125::after {
+  animation-duration: 27s !important;
+}
+
+.bubble-126::after {
+  animation-duration: 20s !important;
+}
+
+.bubble-127::after {
+  animation-duration: 51s !important;
+}
+
+.bubble-128::after {
+  animation-duration: 50s !important;
+}
+
+.bubble-129::after {
+  animation-duration: 53s !important;
+}
+
+.bubble-130::after {
+  animation-duration: 25s !important;
+}
+
+.bubble-131::after {
+  animation-duration: 44s !important;
+}
+
+.bubble-132::after {
+  animation-duration: 72s !important;
+}
+
+.bubble-133::after {
+  animation-duration: 57s !important;
+}
+
+.bubble-134::after {
+  animation-duration: 64s !important;
+}
+
+.bubble-135::after {
+  animation-duration: 43s !important;
+}
+
+.bubble-136::after {
+  animation-duration: 39s !important;
+}
+
+.bubble-137::after {
+  animation-duration: 73s !important;
+}
+
+.bubble-138::after {
+  animation-duration: 33s !important;
+}
+
+.bubble-139::after {
+  animation-duration: 49s !important;
+}
+
+.bubble-140::after {
+  animation-duration: 38s !important;
+}
+
+.bubble-141::after {
+  animation-duration: 20s !important;
+}
+
+.bubble-142::after {
+  animation-duration: 33s !important;
+}
+
+.bubble-143::after {
+  animation-duration: 23s !important;
+}
+
+.bubble-144::after {
+  animation-duration: 45s !important;
+}
+
+.bubble-145::after {
+  animation-duration: 64s !important;
+}
+
+.bubble-146::after {
+  animation-duration: 56s !important;
+}
+
+.bubble-147::after {
+  animation-duration: 20s !important;
+}
+
+.bubble-148::after {
+  animation-duration: 31s !important;
+}
+
+.bubble-149::after {
+  animation-duration: 31s !important;
+}
+
+.bubble-150::after {
+  animation-duration: 58s !important;
 }
 
 @keyframes bubble-move {
@@ -643,7 +643,7 @@
     left: 0;
   }
   25% {
-    left: 400%;
+    left: 400px;
   }
   50% {
     left: 0;

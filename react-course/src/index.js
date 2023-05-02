@@ -8,12 +8,14 @@ import {RouterProvider ,  createBrowserRouter} from 'react-router-dom';
 import GeneralContent from './components/GeneralContent/GeneralContent';
 import PortfoliMenuPage from './components/PortfolioMenuPage/PortfolioMenuPage';
 import HireMe from './components/HireMe/HireMe';
+import Bubbles from './components/Bubbles/Bubbles';
 
 const router = createBrowserRouter([
   { path: '/', element: <App/>, children: [
     {path: '/', element: <GeneralContent/>},
     {path: '/portfolio_picker', element: <PortfoliMenuPage/>},
-    {path: '/hire_me', element:  <HireMe/>}
+    {path: '/hire_me', element:  <HireMe/>},
+    {path: '/bubbles', element: <Bubbles/>}
   ]},
   {path: '/oldalneve', element: <PageOne/>}
 ]);

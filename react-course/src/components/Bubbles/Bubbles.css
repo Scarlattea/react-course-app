@@ -1,0 +1,5 @@
+.bubble-page .bubbles-main-container {
+  width: 100%;
+  height: calc(100vh - 50px);
+  overflow: hidden;
+}/*# sourceMappingURL=Bubbles.css.map */

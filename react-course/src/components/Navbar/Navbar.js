@@ -11,6 +11,7 @@ export default function Navbar(props){
                 <div className="job">Frontend Developer</div>
             </div>
             <div className="other-buttons">
+                <Link to="/bubbles" className='button'>Bubbles</Link>
                 <Link to="/" className='button about'>About</Link>
                 <Link to="/portfolio_picker" className="button portfolio">Portfolio</Link>
                 <Link to="/hire_me" className='button hire-me'>CV -&gt; hire me :&#41;</Link>
