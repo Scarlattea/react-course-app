@@ -4,17 +4,21 @@ export default function GeneralContent(props){
     let body = document.querySelector('body');
     body.className = "about-me-page";
     let bubbles = [];
-    for (let k = 1; k < 101; k++){
-        let size = Math.floor(Math.random()* 50);
-        let x_position =  Math.floor(Math.random()* window.innerWidth);
-        let y_position = Math.floor(Math.random()* window.innerHeight );
-        let animation_time = Math.floor(Math.random()* 60 + 5);
-        bubbles.push({
+    for (let k = 1; k < 150; k++){
+            let half =  50;
+            let size = Math.floor(Math.random()* 50 + 5);
+            let x_position =  Math.floor(Math.random()* window.innerWidth);
+            let y_position = k < half ? Math.floor(Math.random()* window.innerHeight ) : Math.floor(Math.random()* window.innerHeight + window.innerHeight ); 
+            let animation_time =  k < half ? (Math.random()* 30 + 5) : (Math.random()* 60 + 20);
+            bubbles.push({
             size: size,
             x: x_position,
             y: y_position,
-            timer: animation_time
-        });
+            timer: animation_time,
+            animation : k < half ? `${animation_time}s linear bubble-move` : `${animation_time}s linear bubble-move infinite`,
+            noReturn : k < half ? true : false,
+            number : k
+            });        
     }
     return(
         <div className="portfolio-general-content">
@@ -34,10 +38,9 @@ export default function GeneralContent(props){
                 height: `${bubble.size}px`,
                 left: `${bubble.x}px`,
                 top: `${bubble.y}px`,
-                animation: `${bubble.timer}s linear bubble-move  alternate infinite`,
+                animation: `${bubble.animation}`,
             };
-            console.log(bubbleStyle);
-            return <div className="decoration bubble" style={bubbleStyle}></div>
+            return <div className= {bubble.noReturn ? `no-return decoration bubble bubble-${bubble.number}` : `decoration bubble bubble-${bubble.number}`} style={bubbleStyle} ></div>
            })}
         </div>
     );
