@@ -4,4 +4,17 @@
         height: calc(100vh - 50px); 
         overflow: hidden; 
     }
+    .stop-btn, .start-btn{
+        background: blue;
+        color: white;
+        position: absolute;
+        top: 100px;
+        right: 50px; 
+        &:hover{
+            background: blueviolet;
+        }
+    }
+    .start-btn{
+        right: 200px; 
+    }
 }

@@ -2,4 +2,17 @@
   width: 100%;
   height: calc(100vh - 50px);
   overflow: hidden;
+}
+.bubble-page .stop-btn, .bubble-page .start-btn {
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+.bubble-page .stop-btn:hover, .bubble-page .start-btn:hover {
+  background: blueviolet;
+}
+.bubble-page .start-btn {
+  right: 200px;
 }/*# sourceMappingURL=Bubbles.css.map */
